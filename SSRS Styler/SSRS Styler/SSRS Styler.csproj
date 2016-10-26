@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5FD3826-D750-4683-8637-42A0BD0EB65D}</ProjectGuid>
+    <ProjectGuid>{78484BBD-BEBF-4939-A880-3CC86BD2E7DC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SSRS_Styler</RootNamespace>
