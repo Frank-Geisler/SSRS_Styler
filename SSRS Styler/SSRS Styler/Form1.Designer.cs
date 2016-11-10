@@ -142,6 +142,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openBrandingDialog = new System.Windows.Forms.OpenFileDialog();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
@@ -1367,6 +1368,7 @@
             // 
             // tabPage11
             // 
+            this.tabPage11.Controls.Add(this.linkLabel2);
             this.tabPage11.Controls.Add(this.textBox3);
             this.tabPage11.Controls.Add(this.textBox2);
             this.tabPage11.Controls.Add(this.label8);
@@ -1461,6 +1463,20 @@
             // 
             this.openBrandingDialog.DefaultExt = "Zip-Archive (*.zip)|zip";
             this.openBrandingDialog.Filter = "Zip-Archive (*.zip)|*.zip";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(37, 288);
+            this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(606, 20);
+            this.linkLabel2.TabIndex = 10;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "How to create a custom brand package for Reporting Services with SQL Server 2016";
+            this.linkLabel2.VisitedLinkColor = System.Drawing.Color.Blue;
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // Form1
             // 
@@ -1613,6 +1629,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.OpenFileDialog openBrandingDialog;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 
